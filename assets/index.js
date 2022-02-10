@@ -73,35 +73,27 @@ $.getJSON("assets/info.json", function(data) {
                 count += 1;
             } else {
                 $('.social__container').append("<a href='"+data.Person.Social[x]+"' target='_blank' class='social__link'><i class='bx bxl-github social__icon' ></i>"+x+"</a>");
-                count += 1;
             }
         }
     });
 
     $(document).ready(function() {
-      for(f in data.Person.Skills) {
-        $('#skillsInfo').append('<div class="cKindSkills"><h3 style="margin: 0;">' + f + '</h3></div>');
-        for(g in data.Person.Skills[f]) {
-          var skillCount = data.Person.Skills[f][g];
-
-          $('#skillsInfo').append('<div class="cSkills" style="background: linear-gradient(to right, #003b36 '+skillCount+'%, #e98a15 0);">'+ g +'</div>');
+        for(x in data.Person.Portfolio.Education) {
+            $('.education__container').append("<div class='education__content'><div class='education__time'><span class='education__rounder'></span><span class='education__line'></span></div><div class='education__data c-grid'><h3 class='education__title'></h3><span class='education__studies'>"+x+"</span><span class='education__year'>"+data.Person.Portfolio.Education[x]+"</span></div></div>");
         }
-      }
     });
 
-    $(document).ready(function() {
-      for(var i = 0; i < data.Person.Strengths.length; i++) {
-        $('#softInfo').append('<div class="cSoft">' + data.Person.Strengths[i] + '</div>');
-      }
-    });
+    /*<div class='education__content'>
+                                <div class='education__time'>
+                                    <span class='education__rounder'></span>
+                                    <span class='education__line'></span>
+                                </div>
 
-    $(document).ready(function() {
-      for(x in data.Person.Portfolio) {
-        $('#education').append('<div class="educlsHead"><h2>' + x +'</h2></div>');
-        for(j in data.Person.Portfolio[x]) {
-          $('#education').append('<div class="eduText"><h4>'+ data.Person.Portfolio[x][j] +'</h4></div><div class="eduDate">'+ j +'</div>');
-        }
-      }
-    });
+                                <div class='education__data c-grid'>
+                                    <h3 class='education__title'></h3>
+                                    <span class='education__studies'></span>
+                                    <span class='education__year'></span>
+                                </div>
+                            </div>*/
 
   });
