@@ -79,7 +79,6 @@ $.getJSON("assets/info.json", function(data) {
 
     $(document).ready(function() {
         const last_obj = Object.keys(data.Person.Portfolio.Education)[Object.keys(data.Person.Portfolio.Education).length-1];
-        console.log(last_obj);
         for(x in data.Person.Portfolio.Education) {
             for (y in data.Person.Portfolio.Education[x]) {
                 if(x != last_obj) {
@@ -87,6 +86,15 @@ $.getJSON("assets/info.json", function(data) {
                 } else {
                     $('.education__container').append("<div class='education__content'><div class='education__time'><span class='education__rounder'></span></div><div class='education__data c-grid'><h3 class='education__title'>"+y+"</h3><span class='education__studies'>"+x+"</span><span class='education__year'>"+data.Person.Portfolio.Education[x][y]+"</span></div></div>");
                 }
+            }
+        }
+    });
+
+    $(document).ready(function() {
+        for(x in data.Person.Skills) {
+            $('.skills__content').append("<ul class='skills__data'></ul>");
+            for (y in data.Person.Skills[x]) {
+                $('.skills__data').append("<li class='skills__name'><span class='skills__circle'>"+y+"</span></li>");
             }
         }
     });
