@@ -102,9 +102,7 @@ $.getJSON("assets/info.json", function(data) {
 
     $(document).ready(function() {
         for (x in data.Person.Portfolio.Working_Experience) {
-            console.log(x);
             for (y in data.Person.Portfolio.Working_Experience[x]){
-                console.log(y);
                 $('.experience__container').append('<div class="experience__content"><div class="experience__time"><span class="experience__rounder"></span><span class="experience__line"></span></div><div class="experience__data c-grid"><h3 class="experience__title">'+x+'</h3><span class="experience__company">'+y+'</span><p class="experience_decription">'+data.Person.Portfolio.Working_Experience[x][y]+'</p></div></div>');
             }
         }
