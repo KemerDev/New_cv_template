@@ -51,7 +51,7 @@ $.getJSON("assets/info.json", function(data) {
     document.getElementById("description").innerHTML = data.Person.About;
 
     $(document).ready(function() {
-      for(const [idx, elem] of data.Person.Contact.entries()) {
+      for(const [idx, elem] of Object.entries(data.Person.Contact)) {
           if (idx == 0) {
             $('.home__address').append("<span class='home__information' id='address'><i class='bx bx-map home__icon'></i>"+data.Person.Contact[elem]+"</span>");
           } else if(idx == 1) {
