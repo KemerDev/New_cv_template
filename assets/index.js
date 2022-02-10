@@ -82,7 +82,7 @@ $.getJSON("assets/info.json", function(data) {
         console.log(last_obj);
         for(x in data.Person.Portfolio.Education) {
             for (y in data.Person.Portfolio.Education[x]) {
-                if(y != last_obj) {
+                if(x != last_obj) {
                     $('.education__container').append("<div class='education__content'><div class='education__time'><span class='education__rounder'></span><span class='education__line'></span></div><div class='education__data c-grid'><h3 class='education__title'>"+y+"</h3><span class='education__studies'>"+x+"</span><span class='education__year'>"+data.Person.Portfolio.Education[x][y]+"</span></div></div>");
                 } else {
                     $('.education__container').append("<div class='education__content'><div class='education__time'><span class='education__rounder'></span></div><div class='education__data c-grid'><h3 class='education__title'>"+y+"</h3><span class='education__studies'>"+x+"</span><span class='education__year'>"+data.Person.Portfolio.Education[x][y]+"</span></div></div>");

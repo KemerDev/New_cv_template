@@ -284,3 +284,20 @@ img {
     background-color: var(--text-color-light);
     transform: translate(7px, 0);
 }
+
+.education__data {
+    gap: .5rem;
+}
+
+.education__title {
+    font-size: var(--h3-font-size);
+}
+
+.education__studies {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+}
+
+.education__year {
+    font-size: var(--smaller-font-size);
+}
