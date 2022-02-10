@@ -51,16 +51,18 @@ $.getJSON("assets/info.json", function(data) {
     document.getElementById("description").innerHTML = data.Person.About;
 
     $(document).ready(function() {
-      for(const [idx, elem] of Object.entries(data.Person.Contact)) {
-          const index = data.Person.Contact.findIndex(itm => itm.name === idx);
-          if (index == 0) {
-            $('.home__address').append("<span class='home__information' id='address'><i class='bx bx-map home__icon'></i>"+data.Person.Contact[elem]+"</span>");
-          } else if(index == 1) {
-            $('.home__address').append("<span class='home__information' id='email'><i class='bx bx-envelope home__icon'></i>"+data.Person.Contact[elem]+"</span>");
-          } else {
-            $('.home__address').append("<span class='home__information' id='number'><i class='bx bx-phone home__icon'></i>"+data.Person.Contact[elem]+"</span>");
-          }
-      }
+        let count = 0
+        for(x in data.Person.Contact) {
+            if (count == 0) {
+                $('.home__address').append("<span class='home__information' id='address'><i class='bx bx-map home__icon'></i>"+data.Person.Contact[x]+"</span>");
+                count += 1;
+            } else if(index == 1) {
+                $('.home__address').append("<span class='home__information' id='email'><i class='bx bx-envelope home__icon'></i>"+data.Person.Contact[x]+"</span>");
+                count += 1;
+            } else {
+                $('.home__address').append("<span class='home__information' id='number'><i class='bx bx-phone home__icon'></i>"+data.Person.Contact[x]+"</span>");
+            }
+        }
     });
 
     /*<span class="home__information" id="address">
