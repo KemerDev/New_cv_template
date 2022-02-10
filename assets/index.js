@@ -107,6 +107,4 @@ $.getJSON("assets/info.json", function(data) {
             }
         }
     });
-
-    /*                      */
   });
