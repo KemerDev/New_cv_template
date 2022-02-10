@@ -14,11 +14,11 @@
 		},
 
 		"Info": "Software Engineer and Computer Science student at University of Thessaly",
-		"About": "My name is Georgios Kemeridis, currently studing Computer Science\nand coding is what i love the most in addition to challenges.\nI 'm actively looking for working opportunities in order\nto expand my learning, communication capabilities and finally\nmeet new people.",
+		"About": "My name is Georgios Kemeridis, currently working as a software engineer and studing Computer Science\nand coding is what i love the most in addition to challenges.\nI 'm actively looking for working opportunities in order\nto expand my learning, communication capabilities and finally\nmeet new people.",
 
 		"Portfolio" : {
-			"Working Experience" : {
-				"Software Engineer for Textech Struve GmbH" : "10/2021 - Present"
+			"Working_Experience" : {
+				"Software Engineer" : {"10/2021 - Present | Textech Struve GmbH" : "Designed and Implemented a highly dynamic and scallable GUI application (Tool) for data visualization"}
 			},
 			
 			"Education" : {
