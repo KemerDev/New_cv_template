@@ -92,10 +92,8 @@ $.getJSON("assets/info.json", function(data) {
 
     $(document).ready(function() {
         for(x in data.Person.Skills) {
-            for (y in data.Person.Skills[x]) {
-                $('.skills__content').append("<ul class='skills__data'></ul>");
-                $('.skills__data').append("<li class='skills__name'><span class='skills__circle'>"+y+"</span></li>");
-            }
+            $('.skills__content').append("<ul class='skills__data'></ul>");
+            $('.skills__data').append("<li class='skills__name'><span class='skills__circle'>"+data.Person.Skills[x]+"</span></li>");
         }
     });
   });
