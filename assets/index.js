@@ -56,7 +56,7 @@ $.getJSON("assets/info.json", function(data) {
             if (count == 0) {
                 $('.home__address').append("<span class='home__information' id='address'><i class='bx bx-map home__icon'></i>"+data.Person.Contact[x]+"</span>");
                 count += 1;
-            } else if(index == 1) {
+            } else if(count == 1) {
                 $('.home__address').append("<span class='home__information' id='email'><i class='bx bx-envelope home__icon'></i>"+data.Person.Contact[x]+"</span>");
                 count += 1;
             } else {
