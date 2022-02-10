@@ -63,23 +63,23 @@
 				},
 
 			"Software Development" : {
-				"Java" : 30,
-				"C" : 75,
-				"Python" : 100,
-				"React-Native" : 30,
-				"Typescript" : 20
+					"Java" : 30,
+					"C" : 75,
+					"Python" : 100,
+					"React-Native" : 30,
+					"Typescript" : 20
 			},
 
 			"EXTRA" : {
-				"Github" : 100,
-				"Jupyter" : 80,
-				"PC Troubleshooting/Fixing" : 100,
-				"Photoshop" : 60
+					"Github" : 100,
+					"Jupyter" : 80,
+					"PC Troubleshooting/Fixing" : 100,
+					"Photoshop" : 60
 			},
 
 			"Languages" : {
-				"Greek" : 100,
-				"English" : 90
+					"Greek" : 100,
+					"English" : 100
 			}
 		},
 		"Strengths" : ["Adaptable "," Dedicated", "Fast Learner"]
