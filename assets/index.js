@@ -51,10 +51,20 @@ $.getJSON("assets/info.json", function(data) {
     document.getElementById("description").innerHTML = data.Person.About;
 
     $(document).ready(function() {
-      for(x in data.Person.Contact) {
-        $('.home__address').append('<div class="cInfo">' + data.Person.Contact[x] + '</div>');
+      for(const [idx, elem] of data.Person.Contact.entries()) {
+          if (idx == 0) {
+            $('.home__address').append("<span class='home__information' id='address'><i class='bx bx-map home__icon'></i>"+data.Person.Contact[elem]+"</span>");
+          } else if(idx == 1) {
+            $('.home__address').append("<span class='home__information' id='address'><i class='bx bx-envelope home__icon'></i>"+data.Person.Contact[elem]+"</span>");
+          } else {
+            $('.home__address').append("<span class='home__information' id='address'><i class='bx bx-phone home__icon'></i>"+data.Person.Contact[elem]+"</span>");
+          }
       }
     });
+
+    /*<span class="home__information" id="address">
+                                        <i class='bx bx-map home__icon'></i>
+                                    </span>*/
 
     $(document).ready(function() {
       for(f in data.Person.Skills) {
