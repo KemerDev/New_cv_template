@@ -7,6 +7,12 @@
 			"Email" : "kemerios10@gmail.com",
 			"Phone" : "+306940599961"
 		},
+
+		"Social": {
+			"Linkedin" : "https://www.linkedin.com/in/george-kemeridis-3ab3021b7/",
+			"GitHub" : "https://github.com/KemerDev"
+		},
+
 		"Info": "Software Engineer and Computer Science student at University of Thessaly",
 		"About": "My name is Georgios Kemeridis, currently studing Computer Science\nand coding is what i love the most in addition to challenges.\nI 'm actively looking for working opportunities in order\nto expand my learning, communication capabilities and finally\nmeet new people.",
 
