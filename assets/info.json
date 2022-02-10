@@ -58,22 +58,21 @@
 					"MySQL" : 55,
 					"MongoDB" : 70,
 					"Json" : 90,
-					"ReactJS" : 75,
-					"Selenium" : 60
+					"ReactJS" : 75
 				},
 
 			"Software_Development" : {
 					"Java" : 30,
 					"C" : 75,
 					"Python" : 100,
-					"React-Native" : 30,
+					"React_Native" : 30,
 					"Typescript" : 20
 			},
 
 			"EXTRA" : {
 					"Github" : 100,
 					"Jupyter" : 80,
-					"PC Troubleshooting/Fixing" : 100,
+					"PC_Troubleshooting/Fixing" : 100,
 					"Photoshop" : 60
 			},
 
