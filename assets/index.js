@@ -71,9 +71,10 @@ $.getJSON("assets/info.json", function(data) {
             if (count == 0) {
                 $('.social__container').append("<a href='"+data.Person.Social[x]+"' target='_blank' class='social__link'> <i class='bx bxl-linkedin social__icon' ></i>"+data.Person.Social+"</a>");
                 count += 1;
-            } else if(count == 1) {
+            } else {
                 $('.social__container').append("<a href='"+data.Person.Social[x]+"' target='_blank' class='social__link'><i class='bx bxl-github social__icon' ></i>"+data.Person.Social+"</a>");
                 count += 1;
+            }
         }
     });
 
