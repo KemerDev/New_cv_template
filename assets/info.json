@@ -49,7 +49,7 @@
 		},
 
 		"Skills" : {
-			"Web Development" : {
+			"Web_Development" : {
 					"HTML5/CSS3" : 90,
 					"JavaScript" : 80,
 					"NodeJS" : 70,
@@ -62,7 +62,7 @@
 					"Selenium" : 60
 				},
 
-			"Software Development" : {
+			"Software_Development" : {
 					"Java" : 30,
 					"C" : 75,
 					"Python" : 100,
