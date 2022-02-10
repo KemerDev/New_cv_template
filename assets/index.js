@@ -69,18 +69,14 @@ $.getJSON("assets/info.json", function(data) {
         let count = 0
         for(x in data.Person.Social) {
             if (count == 0) {
-                $('.social__container').append("<a href='"+data.Person.Social[x]+"' target='_blank' class='social__link'> <i class='bx bxl-linkedin social__icon' ></i>"+data.Person.Social+"</a>");
+                $('.social__container').append("<a href='"+data.Person.Social[x]+"' target='_blank' class='social__link'> <i class='bx bxl-linkedin social__icon' ></i>"+x+"</a>");
                 count += 1;
             } else {
-                $('.social__container').append("<a href='"+data.Person.Social[x]+"' target='_blank' class='social__link'><i class='bx bxl-github social__icon' ></i>"+data.Person.Social+"</a>");
+                $('.social__container').append("<a href='"+data.Person.Social[x]+"' target='_blank' class='social__link'><i class='bx bxl-github social__icon' ></i>"+x+"</a>");
                 count += 1;
             }
         }
     });
-
-    /*<a href="" target="_blank" class="social__link"> <i class='bx bxl-linkedin social__icon' ></i></a>
-    <a href="" target="_blank" class="social__link"><i class='bx bxl-github social__icon' ></i></a>
-     */
 
     $(document).ready(function() {
       for(f in data.Person.Skills) {
