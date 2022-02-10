@@ -79,7 +79,9 @@ $.getJSON("assets/info.json", function(data) {
 
     $(document).ready(function() {
         for(x in data.Person.Portfolio.Education) {
-            $('.education__container').append("<div class='education__content'><div class='education__time'><span class='education__rounder'></span><span class='education__line'></span></div><div class='education__data c-grid'><h3 class='education__title'></h3><span class='education__studies'>"+x+"</span><span class='education__year'>"+data.Person.Portfolio.Education[x]+"</span></div></div>");
+            for (y in x) {
+                $('.education__container').append("<div class='education__content'><div class='education__time'><span class='education__rounder'></span><span class='education__line'></span></div><div class='education__data c-grid'><h3 class='education__title'>"+y+"</h3><span class='education__studies'>"+x+"</span><span class='education__year'>"+y[x]+"</span></div></div>");
+            }
         }
     });
 
