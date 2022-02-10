@@ -1,0 +1,81 @@
+{
+	"Person": {
+		"Name": "Georgios",
+		"Surname": "Kemeridis",
+		"Contact": {
+			"Location" : "Munich, Germany",
+			"Phone" : "+306940599961",
+			"Email" : "kemerios10@gmail.com"
+		},
+		"Info": "Software Engineer and Computer Science student at University of Thessaly",
+		"About": "My name is Georgios Kemeridis, currently studing Computer Science\nand coding is what i love the most in addition to challenges.\nI 'm actively looking for working opportunities in order\nto expand my learning, communication capabilities and finally\nmeet new people.",
+
+		"Portfolio" : {
+			"Working Experience" : {
+				"Software Engineer for Textech Struve GmbH" : "10/2021 - Present"
+			},
+			
+			"Education" : {
+				"Computer Science University of Thessaly" : "10/2015 - Present",
+				"Specialties of Information Technology 2nd Vocational Lyceum of Katerini Computer Engineer and Computer Networks Technician Diploma Of Vocational Education" : "9/2012 - 06/2014"
+			},
+
+			"Certificates" : {
+				"Quantum Computing and Programming Qworld" : "05/2021",
+				"Certified Lifeguard / Lifeguard Patrol" : "06/2020",
+				"Cyber Security in Critical Infrastructures (Honeypots) IEK ALFA" : "03/2021",
+				"WordPress: Making the web a better place IEK ALFA" : "03/2021",
+				"Software Development: From R&D to the implementation and integration IEK ALFA" : "03/2021"
+			},
+
+			"Projects" : {
+				"Messanger web application implemetation using ReactJS(FrontEnd), NodeJS(express, nodemon and more for the backend) with socket.Io and finally an implemented RESTApi with CRUD methods listening to a MongoDB":"September 2021",
+				"A hotel search engine made as a project for my university using technologies: Html5, CSS, Javascript(Jquery, Ajax), PHP (PDOprepared statements etc), SQL (Local database setup using Xampp and MySql Workbech), PHPUnit (CRUD test cases using PHPUnit)" : "April 2021-May 2021",
+				"My personal webpage made completely with HTML/CSS/JavaScript and a JSON file to dynamically pull all the text, create the divs and show it. Saying that, someone can use my site as a template and edit just the JSON file for his/her information" : "07/2021",
+				"Pitch detection application using zero crossing rate implemented in javascript and a JSON file with all the notes and their frequencies." : "08/2021",
+				"Genetic algorithm implementation writen in C that finds a users given text and shows it" : "03/2021"
+			},
+
+			"Volunteering" : {
+				"Lifeguard in 'Authentic Marathon Swim'" : "09/2020"
+			}
+
+		},
+
+		"Skills" : {
+			"Web Development" : {
+					"HTML5/CSS3" : 90,
+					"JavaScript" : 80,
+					"NodeJS" : 70,
+					"PHP" : 80,
+					"PHPUnit" : 80,
+					"MySQL" : 55,
+					"MongoDB" : 70,
+					"Json" : 90,
+					"ReactJS" : 75,
+					"Selenium" : 60
+				},
+
+			"Software Development" : {
+				"Java" : 30,
+				"C" : 75,
+				"Python" : 100,
+				"React-Native" : 30,
+				"Typescript" : 20
+			},
+
+			"EXTRA" : {
+				"Github" : 100,
+				"Jupyter" : 80,
+				"PC Troubleshooting/Fixing" : 100,
+				"Photoshop" : 60
+			},
+
+			"Languages" : {
+				"Greek" : 100,
+				"English" : 90
+			}
+		},
+		"Strengths" : ["Adaptable "," Dedicated", "Fast Learner"]
+	}
+}
