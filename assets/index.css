@@ -258,3 +258,29 @@ img {
 .profile__description {
     text-align: center;
 }
+
+.education__content {
+    display: flex;
+}
+
+.education__time {
+    padding-right: 1rem;
+}
+
+.education__rounder {
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: var(--text-color-light);
+    border-radius: 50%;
+    margin-top: .25rem;
+}
+
+.education__line {
+    display: block;
+    width: 2px;
+    height: 110%;
+    background-color: var(--text-color-light);
+    transform: translate(7px, 0);
+}
