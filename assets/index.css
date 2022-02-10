@@ -301,3 +301,21 @@ img {
 .education__year {
     font-size: var(--smaller-font-size);
 }
+
+.skills__content {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills__content {
+    gap: 0;
+}
+
+.skills__name {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-3);
+}
+
+.skills__title {
+    font-size: var(--h3-font-size);
+}
