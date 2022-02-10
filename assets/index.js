@@ -78,7 +78,7 @@ $.getJSON("assets/info.json", function(data) {
     });
 
     $(document).ready(function() {
-        const last_obj = Object.keys(data.Person.Portfolio.Education)[Object.keys(Person.Portfolio.Education).length-1];
+        const last_obj = Object.keys(data.Person.Portfolio.Education)[Object.keys(data.Person.Portfolio.Education).length-1];
         console.log(last_obj);
         for(x in data.Person.Portfolio.Education) {
             for (y in data.Person.Portfolio.Education[x]) {
