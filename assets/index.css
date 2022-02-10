@@ -306,6 +306,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.skills__content {
+    gap: 0;
+}
+
 .skills__name {
     display: flex;
     align-items: center;
