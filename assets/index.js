@@ -92,6 +92,7 @@ $.getJSON("assets/info.json", function(data) {
 
     $(document).ready(function() {
         for(x in data.Person.Skills) {
+            $('.skills__content').append("<h3 class='education__title'>"+x+"</h3>")
             $('.skills__content').append("<ul class='skills__data' id='"+x+"'></ul>");
             for (y in data.Person.Skills[x]){
                 $('#'+x+'').append("<li class='skills__name'><span class='skills__circle'>"+y+"</span></li>");
