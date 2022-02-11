@@ -361,3 +361,7 @@ img {
     color: var(--text-color-light);
     margin-bottom: .25rem;
 }
+
+.interests__name {
+    text-align: center;
+}
