@@ -66,7 +66,7 @@ body.scale-cv {
 }
 
 .scale-cv .c-container{
-    max-width: 700px;
+    max-width: 595px;
 }
 
 .scale-cv .section {
@@ -85,7 +85,6 @@ body.scale-cv {
 .scale-cv .home__img {
     width: 90px;
     height: 90px;
-    object-fit: cover;
 }
 
 .scale-cv .home__container {
