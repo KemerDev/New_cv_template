@@ -92,10 +92,12 @@ $.getJSON("assets/info.json", function(data) {
 
     $(document).ready(function() {
         for(x in data.Person.Skills) {
-            $('.skills__content').append("<ul class='skills__data' id='"+x+"'></ul>");
-            $('#'+x+'').append("<h3 class='skills__title'>"+x+"</h3>")
-            for (y in data.Person.Skills[x]){
-                $('#'+x+'').append("<li class='skills__name'><span class='skills__circle'></span>"+y+"</li>");
+            if(x != "languages") {
+                $('.skills__content').append("<ul class='skills__data' id='"+x+"'></ul>");
+                $('#'+x+'').append("<h3 class='skills__title'>"+x+"</h3>")
+                for (y in data.Person.Skills[x]){
+                    $('#'+x+'').append("<li class='skills__name'><span class='skills__circle'></span>"+y+"</li>");
+                }
             }
         }
     });
@@ -113,4 +115,12 @@ $.getJSON("assets/info.json", function(data) {
             $('.certificate__container').append('<div class="certificate__content"><h3 class="certificate__title">'+x+ ' | ' +data.Person.Portfolio.Certificates[x]+'</h3></div>');
         }
     });
+
+    $(document).ready(function() {
+        for(x in data.Person.Skills.Languages) {
+            $('.languages__content').append('<li class="languages__name"><span class="languages__circle"></span>'+x+'</li>');
+        }
+    });
+
+    /*<li class="languages__name"><span class="languages__circle"></span></li> */
   });
