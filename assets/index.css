@@ -309,21 +309,25 @@ img {
     font-size: var(--smaller-font-size);
 }
 
-.skills__content {
+.skills__content,
+.language__content {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.skills__content {
+.skills__content,
+.language__content {
     gap: 0;
 }
 
-.skills__name {
+.skills__name,
+.language__name {
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-3);
 }
 
-.skills__circle {
+.skills__circle,
+.language__circle {
     display: inline-block;
     width: 5px;
     height: 5px;

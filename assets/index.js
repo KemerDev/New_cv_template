@@ -122,5 +122,5 @@ $.getJSON("assets/info.json", function(data) {
         }
     });
 
-    /*<li class="languages__name"><span class="languages__circle"></span></li> */
+    /**/
   });
