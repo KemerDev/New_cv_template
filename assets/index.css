@@ -522,7 +522,7 @@ img {
 
     .resume {
         display: grid;
-        grid-template-columns: .5fr 1fr;
+        grid-template-columns: .1fr 5fr;
         background-color: var(--container-color);
         box-shadow: 0 0 8px rgba(13, 12, 12, .15);
     }
