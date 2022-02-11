@@ -85,6 +85,7 @@ body.scale-cv {
 .scale-cv .home__img {
     width: 90px;
     height: 90px;
+    object-fit: cover;
 }
 
 .scale-cv .home__container {
