@@ -110,7 +110,7 @@ $.getJSON("assets/info.json", function(data) {
 
     $(document).ready(function() {
         for (x in data.Person.Portfolio.Certificates) {
-            $('.certificate__container').append('<div class="certificate__content"><h3 class="certificate__title">'+x | data.Person.Portfolio.Certificates[x]+'</h3></div>');
+            $('.certificate__container').append('<div class="certificate__content"><h3 class="certificate__title">'+x+ '|' +data.Person.Portfolio.Certificates[x]+'</h3></div>');
         }
     });
 
