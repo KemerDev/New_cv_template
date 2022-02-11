@@ -72,7 +72,7 @@ let opt = {
 
 
 function generateResume() {
-    html2pdf(areaCv, opt)
+    html2pdf(areaCv)
 }
 
 resumeButton.addEventListener('click', () => {
