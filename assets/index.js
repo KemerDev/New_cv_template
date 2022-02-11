@@ -51,6 +51,39 @@ function scrollTop(){
 }
 window.addEventListener('scroll', scrollTop)
 
+function scaleCv() {
+    document.body.classList.add('scale-cv')
+}
+
+function removeScale() {
+    document.body.classList.remove('scale-cv')
+}
+
+let areaCv = document.getElementById('area-cv')
+let resumeButton = document.getElementById('resume-button')
+
+let opt = {
+    margin: 0,
+    filename: 'GeorgiosCV.pdf',
+    image: {type: 'jpeg', quality: 0.98},
+    html2canvas: {scale: 4},
+    jsPDF: {format: 'a4', orientation: 'portrait'}
+}
+
+
+function generateResume() {
+    html2pdf(areaCv, opt)
+}
+
+resumeButton.addEventListener('click', () => {
+    scaleCv()
+
+    generateResume()
+
+    setTimeout(removeScale, 5000)
+
+})
+
 /* -----------------------------Some Json Stuff------------------------------- */
 $.getJSON("assets/info.json", function(data) {
     document.getElementById("title").innerHTML = data.Person.Name + " " + data.Person.Surname;
