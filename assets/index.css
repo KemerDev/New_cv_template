@@ -265,7 +265,7 @@ img {
 }
 
 .education__time,
-.education__time {
+.experience__time {
     padding-right: 1rem;
 }
 
@@ -281,7 +281,7 @@ img {
 }
 
 .education__line,
-.education__line {
+.experience__line {
     display: block;
     width: 2px;
     height: 110%;
