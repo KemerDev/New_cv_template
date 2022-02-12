@@ -435,7 +435,7 @@ img {
 
 .education__studies,
 .experience__company,
-.project__date
+.project__date,
 .volunteer__date {
     font-size: var(--small-font-size);
     color: var(--title-color);
