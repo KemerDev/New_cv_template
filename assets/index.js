@@ -165,7 +165,7 @@ $.getJSON("assets/info.json", function(data) {
     $(document).ready(function() {
         for (x in data.Person.Portfolio.Volunteering) {
             for(y in data.Person.Portfolio.Volunteering[x])
-            $('.volunteer__container').append('<div class="volunteer__content"><div class="volunteer__time"></div><div class="volunteer__data c-grid"><h3 class="volunteer__title">'+x+'</h3><span class="volunteer__date">'+data.Person.Portfolio.Volunteering[x][y]+'</span><p class="volunteer_decription">'+y+'</p></div></div>');
+            $('.volunteer__container').append('<div class="volunteer__content"><div class="volunteer__time"></div><div class="volunteer__data c-grid"><h3 class="volunteer__title">'+x+'</h3><span class="volunteer__date">'+y+'</span><p class="volunteer_decription">'+data.Person.Portfolio.Volunteering[x][y]+'</p></div></div>');
         }
     });
 
