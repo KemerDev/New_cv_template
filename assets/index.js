@@ -137,6 +137,7 @@ $.getJSON("assets/info.json", function(data) {
 
     $(document).ready(function() {
         for(x in data.Person.Skills) {
+            console.log(x)
             if(x != "languages") {
                 $('.skills__content').append("<ul class='skills__data' id='"+x+"'></ul>");
                 $('#'+x+'').append("<h3 class='skills__title'>"+x+"</h3>")
@@ -173,6 +174,4 @@ $.getJSON("assets/info.json", function(data) {
             $('.languages__content').append('<li class="languages__name"><span class="languages__circle"></span>'+x+'</li>');
         }
     });
-
-    /**/
   });
