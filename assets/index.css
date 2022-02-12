@@ -307,7 +307,10 @@ img {
 
 .home__profession {
     font-size: var(--normal-font-size);
+    width: 60%;
     margin-bottom: var(--mb-1);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home__address {
