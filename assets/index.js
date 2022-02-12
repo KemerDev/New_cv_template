@@ -163,6 +163,15 @@ $.getJSON("assets/info.json", function(data) {
     });
 
     $(document).ready(function() {
+        for (x in data.Person.Portfolio.Volunteering) {
+            for(y in data.Person.Portfolio.Volunteering[x])
+            $('.volunteer__container').append('<div class="volunteer__content"><div class="volunteer__time"></div><div class="volunteer__data c-grid"><h3 class="volunteer__title">'+x+'</h3><span class="volunteer__date">'+data.Person.Portfolio.Volunteering[x][y]+'</span><p class="volunteer_decription">'+y+'</p></div></div>');
+        }
+    });
+
+    /*volunteer__container*/
+
+    $(document).ready(function() {
         for (x in data.Person.Portfolio.Certificates) {
             $('.certificate__container').append('<div class="certificate__content"><h3 class="certificate__title">'+x+ ' | ' +data.Person.Portfolio.Certificates[x]+'</h3></div>');
         }
