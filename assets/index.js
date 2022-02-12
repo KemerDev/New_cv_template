@@ -151,6 +151,13 @@ $.getJSON("assets/info.json", function(data) {
     });
 
     $(document).ready(function() {
+        for (x in data.Person.Portfolio.Projects) {
+            for(y in data.Person.Portfolio.Projects[x])
+            $('.project__container').append('<div class="project__content"><div class="project__time"></div><div class="project__data c-grid"><h3 class="project__title">'+x+'</h3><span class="experience__company">'+y+'</span><p class="experience_decription">'+data.Person.Portfolio.Projects[x][y]+'</p></div></div>');
+        }
+    });
+
+    $(document).ready(function() {
         for (x in data.Person.Portfolio.Certificates) {
             $('.certificate__container').append('<div class="certificate__content"><h3 class="certificate__title">'+x+ ' | ' +data.Person.Portfolio.Certificates[x]+'</h3></div>');
         }

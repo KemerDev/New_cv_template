@@ -35,11 +35,11 @@
 			},
 
 			"Projects" : {
-				"Messanger web application implemetation using ReactJS(FrontEnd), NodeJS(express, nodemon and more for the backend) with socket.Io and finally an implemented RESTApi with CRUD methods listening to a MongoDB":"September 2021",
-				"A hotel search engine made as a project for my university using technologies: Html5, CSS, Javascript(Jquery, Ajax), PHP (PDOprepared statements etc), SQL (Local database setup using Xampp and MySql Workbech), PHPUnit (CRUD test cases using PHPUnit)" : "April 2021-May 2021",
-				"My personal webpage made completely with HTML/CSS/JavaScript and a JSON file to dynamically pull all the text, create the divs and show it. Saying that, someone can use my site as a template and edit just the JSON file for his/her information" : "07/2021",
-				"Pitch detection application using zero crossing rate implemented in javascript and a JSON file with all the notes and their frequencies." : "08/2021",
-				"Genetic algorithm implementation writen in C that finds a users given text and shows it" : "03/2021"
+				"Messenger Mockup" : {"Messenger web application implemetation using ReactJS(FrontEnd), NodeJS(express, nodemon and more for the backend) with socket.Io and finally an implemented RESTApi with CRUD methods listening to a MongoDB":"September 2021"},
+				"Hotel web application" : {"A hotel search engine made as a project for my university using technologies: Html5, CSS, Javascript(Jquery, Ajax), PHP (PDOprepared statements etc), SQL (Local database setup using Xampp and MySql Workbech), PHPUnit (CRUD test cases using PHPUnit)" : "April 2021-May 2021"},
+				"My webpage" : {"My personal webpage made with HTML/CSS/JavaScript and a JSON file to dynamically pull all the data, create the blocks and show it. Saying that, someone can use my site as a template and edit just the JSON file for his/her information" : "07/2021"},
+				"Pitch detection" : {"My love for my guitar made me create a pitch detection application using autocorrelation and zero crossing rate implemented in javascript." : "08/2021"},
+				"Genetic algorithm" : {"Genetic algorithm implementation writen in C that finds a users given text and shows it" : "03/2021"}
 			},
 
 			"Volunteering" : {
@@ -58,7 +58,9 @@
 					"MySQL" : 55,
 					"MongoDB" : 70,
 					"Json" : 90,
-					"ReactJS" : 75
+					"ReactJS" : 75,
+					"ExpressJS" : 70
+
 				},
 
 			"Software" : {
