@@ -119,12 +119,16 @@ body.scale-cv {
 
 .scale-cv .education__container,
 .scale-cv .experience__container,
-.scale-cv .certificate__container {
+.scale-cv .certificate__container,
+.scale-cv .project__container,
+.scale-cv .volunteer__container {
     gap: 1rem;
 }
 
 .scale-cv .education__time,
-.scale-cv .experience__time {
+.scale-cv .experience__time,
+.scale-cv .project__time,
+.scale-cv .volunteer__time {
     padding-right: .5rem;
 }
 
@@ -143,7 +147,9 @@ body.scale-cv {
 }
 
 .scale-cv .education__data,
-.scale-cv .experience__data {
+.scale-cv .experience__data,
+.scale-cv .project__data,
+.scale-cv .volunteer__data {
     gap: .25rem;
 }
 
@@ -381,13 +387,15 @@ img {
 
 .education__content,
 .experience__content,
-.project__content {
+.project__content,
+.volunteer__content {
     display: flex;
 }
 
 .education__time,
 .experience__time,
-.project__time {
+.project__time,
+.volunteer__time {
     padding-right: 1rem;
 }
 
@@ -413,19 +421,22 @@ img {
 
 .education__data,
 .experience__data,
-.project__data {
+.project__data,
+.volunteer__data {
     gap: .5rem;
 }
 
 .education__title,
 .experience__title,
-.project__title {
+.project__title,
+.volunteer__title {
     font-size: var(--h3-font-size);
 }
 
 .education__studies,
 .experience__company,
-.project__date {
+.project__date
+.volunteer__date {
     font-size: var(--small-font-size);
     color: var(--title-color);
 }
