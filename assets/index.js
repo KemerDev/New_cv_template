@@ -137,8 +137,7 @@ $.getJSON("assets/info.json", function(data) {
 
     $(document).ready(function() {
         for(x in data.Person.Skills) {
-            console.log(x)
-            if(x != "languages") {
+            if(x != "Languages") {
                 $('.skills__content').append("<ul class='skills__data' id='"+x+"'></ul>");
                 $('#'+x+'').append("<h3 class='skills__title'>"+x+"</h3>")
                 for (y in data.Person.Skills[x]){
