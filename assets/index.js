@@ -66,7 +66,7 @@ let heightcm = areaHeight / 35.35
 let resumeButton = document.getElementById('resume-button')
 
 let opt = {
-    margin: 1,
+    margin: 0,
     filename: 'GeorgiosCV.pdf',
     html2canvas: {dpi: 192, letterRendering: true },
     jsPDF: {orientation: 'portrait', unit: 'cm', format: [heightcm, 60]}
