@@ -153,7 +153,7 @@ $.getJSON("assets/info.json", function(data) {
     $(document).ready(function() {
         for (x in data.Person.Portfolio.Projects) {
             for(y in data.Person.Portfolio.Projects[x])
-            $('.project__container').append('<div class="project__content"><div class="project__time"></div><div class="project__data c-grid"><h3 class="project__title">'+x+'</h3><span class="experience__company">'+y+'</span><p class="experience_decription">'+data.Person.Portfolio.Projects[x][y]+'</p></div></div>');
+            $('.project__container').append('<div class="project__content"><div class="project__time"></div><div class="project__data c-grid"><h3 class="project__title">'+x+'</h3><span class="project__date">'+data.Person.Portfolio.Projects[x][y]+'</span><p class="project_decription">'+y+'</p></div></div>');
         }
     });
 

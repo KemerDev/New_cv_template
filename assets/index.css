@@ -367,12 +367,14 @@ img {
 }
 
 .education__content,
-.experience__content {
+.experience__content,
+.project__content {
     display: flex;
 }
 
 .education__time,
-.experience__time {
+.experience__time,
+.project__time {
     padding-right: 1rem;
 }
 
@@ -397,17 +399,20 @@ img {
 }
 
 .education__data,
-.experience__data {
+.experience__data,
+.project__data {
     gap: .5rem;
 }
 
 .education__title,
-.experience__title {
+.experience__title,
+.project__title {
     font-size: var(--h3-font-size);
 }
 
 .education__studies,
-.experience__company {
+.experience__company,
+.project__date {
     font-size: var(--small-font-size);
     color: var(--title-color);
 }
