@@ -69,7 +69,7 @@ let opt = {
     margin: 0,
     filename: 'GeorgiosCV.pdf',
     html2canvas: {dpi: 192, letterRendering: true },
-    jsPDF: {orientation: 'portrait', unit: 'cm', format: [heightcm, 60]}
+    jsPDF: {orientation: 'portrait', unit: 'cm', format: 'A4'}
 }
 
 
