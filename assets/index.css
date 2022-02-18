@@ -67,6 +67,7 @@ body.scale-cv {
 
 .scale-cv .c-container{
     max-width: 595px;
+    max-height: 841px;
 }
 
 .scale-cv .section {

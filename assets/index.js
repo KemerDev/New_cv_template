@@ -61,17 +61,15 @@ function removeScale() {
 
 let areaCv = document.getElementById('area-cv')
 let areaHeight = document.getElementById('area-cv').offsetHeight
-let areaWidth = document.getElementById('area-cv').offsetWidth
 let heightcm = areaHeight / 35.35
-let widthcm = areaWidth / 35.35
 
 let resumeButton = document.getElementById('resume-button')
 
 let opt = {
     margin: 0,
     filename: 'GeorgiosCV.pdf',
-    html2canvas: {dpi: 192, letterRendering: true },
-    jsPDF: {orientation: 'portrait', unit: 'cm', format: [heightcm, widthcm]}
+    html2canvas: {dpi: 192},
+    jsPDF: {orientation: 'portrait', format: 'a4'}
 }
 
 
