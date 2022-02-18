@@ -124,7 +124,7 @@ body.scale-cv {
 .scale-cv .certificate__container,
 .scale-cv .project__container,
 .scale-cv .volunteer__container {
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .scale-cv .education__time,
