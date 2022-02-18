@@ -68,8 +68,8 @@ let resumeButton = document.getElementById('resume-button')
 let opt = {
     margin: 0,
     filename: 'GeorgiosCV.pdf',
-    html2canvas: {dpi: 192, letterRendering: true },
-    jsPDF: {orientation: 'portrait', unit: 'cm', format: 'A4'}
+    html2canvas: {dpi: 192},
+    jsPDF: {orientation: 'portrait', unit: 'cm', format: 'a4'}
 }
 
 
