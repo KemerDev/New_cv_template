@@ -3,7 +3,7 @@
 		"Name": "Georgios",
 		"Surname": "Kemeridis",
 		"Contact": {
-			"Location" : "Katerini, Greece",
+			"Location" : "Munich, Germany",
 			"Email" : "kemerios10@gmail.com",
 			"Phone" : "+306940599961"
 		},
@@ -15,9 +15,12 @@
 		},
 
 		"Info": "Software Engineer Computer Science undergraduate University of Thessaly",
-		"About": "My name is Georgios Kemeridis, currently studing Computer Science\nand coding is what i love the most in addition to challenges.\nI 'm actively looking for working opportunities in order\nto expand my learning, communication capabilities and finally\nmeet new people.",
+		"About": "My name is Georgios Kemeridis, currently working as a software engineer and studing Computer Science\nand coding is what i love the most in addition to challenges.\nI 'm actively looking for working opportunities in order\nto expand my learning, communication capabilities and finally\nmeet new people.",
 
 		"Portfolio" : {
+			"Working_Experience" : {
+				"Software Engineer" : {"10/2021 - Present | Textech Struve GmbH" : "Designed and Implemented a highly dynamic and scallable GUI application (Tool) for data visualization"}
+			},
 			
 			"Education" : {
 				"Univercity of Thessaly" : {"Computer Science and Engineering" : "10/2015 - Present"},
