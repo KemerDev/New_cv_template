@@ -71,7 +71,7 @@ let opt = {
     margin: 0,
     filename: 'GeorgiosCV.pdf',
     image: { type: 'jpeg', quality: 0.98},
-    html2canvas: {scale: 0},
+    html2canvas: {scale: 6},
     jsPDF: {unit: 'in', format: 'letter', orientation: 'portrait'}
 }
 
