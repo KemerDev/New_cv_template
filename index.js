@@ -65,6 +65,8 @@ let areaWidth = document.getElementById('area-cv').offsetWidth
 let heightcm = areaHeight / 35.35
 let widthcm = areaWidth / 35.35
 
+console.log(widthcm, heightcm)
+
 let resumeButton = document.getElementById('resume-button')
 
 let opt = {
