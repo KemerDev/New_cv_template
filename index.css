@@ -66,8 +66,7 @@ body.scale-cv {
 }
 
 .scale-cv .c-container{
-    width: 21cm;
-    height: 29.7cm;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
