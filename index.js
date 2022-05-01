@@ -68,10 +68,11 @@ let widthcm = areaWidth / 35.35
 let resumeButton = document.getElementById('resume-button')
 
 let opt = {
-    margin: 0,
+    margin: 1,
     filename: 'GeorgiosCV.pdf',
-    html2canvas: {dpi: 192, letterRendering: true },
-    jsPDF: {orientation: 'portrait', format: 'a4'}
+    image: { type: 'jpeg', quality: 0.98},
+    html2canvas: {scale: 2},
+    jsPDF: {unit: 'in', format: 'letter', orientation: 'portrait'}
 }
 
 
