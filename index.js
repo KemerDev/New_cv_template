@@ -71,8 +71,8 @@ let opt = {
     margin: 0,
     filename: 'GeorgiosCV.pdf',
     image: { type: 'jpeg', quality: 0.98},
-    html2canvas: {scale: 6},
-    jsPDF: {unit: 'in', format: 'letter', orientation: 'portrait'}
+    html2canvas: {scale: 3},
+    jsPDF: {unit: 'cm', format: 'letter', orientation: 'portrait'}
 }
 
 
@@ -81,11 +81,11 @@ function generateResume() {
 }
 
 resumeButton.addEventListener('click', () => {
-    scaleCv()
+    //scaleCv()
 
     generateResume()
 
-    setTimeout(removeScale, 5000)
+    //setTimeout(removeScale, 5000)
 
 })
 
