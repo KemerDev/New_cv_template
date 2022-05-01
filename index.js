@@ -77,15 +77,15 @@ let opt = {
 
 
 function generateResume() {
-    html2pdf(areaCv, opt)
+    html2pdf().set(opt).from(areaCv).save()
 }
 
 resumeButton.addEventListener('click', () => {
-    //scaleCv()
+    scaleCv()
 
     generateResume()
 
-    //setTimeout(removeScale, 5000)
+    setTimeout(removeScale, 5000)
 
 })
 
