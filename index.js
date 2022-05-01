@@ -89,7 +89,7 @@ resumeButton.addEventListener('click', () => {
 })
 
 /* -----------------------------Some Json Stuff------------------------------- */
-$.getJSON("assets/info.json", function(data) {
+$.getJSON("info.json", function(data) {
     document.getElementById("title").innerHTML = data.Person.Name + " " + data.Person.Surname;
     document.getElementById("profession").innerHTML = data.Person.Info;
     document.getElementById("description").innerHTML = data.Person.About;
